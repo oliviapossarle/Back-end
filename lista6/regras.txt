@@ -1,0 +1,22 @@
+$ git init (Para poder Entrar)
+
+----------------------------------------------------------
+
+git config -- local user .name "Murilo Bachiega Reis"
+
+git config -- local user .email "murilo.b.reis@Aluno.senai.br"
+(Para poder acessar a conta do GitHub)
+
+--------------------------------------------------------------
+
+git add .
+
+(Eu estou pegando esses códigos/arquivos e colocando em um envelope)
+
+git commit - m "Envio inicial"
+
+(E está renomeando o envelope de "Envio inicial"
+
+git branch -M main
+(Muda o "master" para main
+
