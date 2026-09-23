@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Agendamento na Barbearia</h1>
+    <form action="exextra.php" method="POST">
+        <label>Digite seu nome:</label>
+        <input type="text" name="nome">
+        <br><br>
+        <label>Idade:</label>
+        <input type="number" name="idade">
+        <br><br>
+        <label>Serviço escolhido:</label>
+        <select name="servico">
+            <option value="corte">Corte de Cabelo</option>
+            <option value="barba">Barba</option>
+            <option value="corte_barba">Corte e Barba</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
