@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <form method="POST" action="ex2.php">
+        <label>Nome do motorista:</label>
+        <input type="text" name="motorista" required><br><br>
+
+        <label>Tipo de veículo:</label>
+        <select name="valor_hora">
+            <option value="5.00">Moto (R$ 5,00/h)</option>
+            <option value="8.00">Carro (R$ 8,00/h)</option>
+            <option value="12.00">Caminhonete (R$ 12,00/h)</option>
+        </select><br><br>
+
+        <label>Quantidade de horas:</label>
+        <input type="number" name="horas" min="1" required><br><br>
+
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
