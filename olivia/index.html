@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekIA - Especialista Nerd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img src="logo2.jpg" width="200" alt="CineIA Logo">
+
+        <h2>As melhores recomendações de Filmes,Séries & Desenhos</h2>
+
+        <p>Responda e descubra o que combina com você.</p>
+
+        <form action="processa.php" method="POST">
+
+
+            <div class="form-group">
+                <label>Qual gênero você prefere?</label>
+
+                <select name="genero" required>
+                    <option value="">Selecione...</option>
+                    <option value="Ação">Ação</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Fantasia">Fantasia</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Prefere filmes, séries ou desenhos?</label>
+
+                <select name="categoria" required>
+                    <option value="">Selecione...</option>
+                    <option value="Filme">Filmes</option>
+                    <option value="Série">Séries</option>
+                    <option value="Desenhos">Desenhos</option>
+                </select>
+            </div>
+
+            <button type="submit">Recomendar 🚀</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
